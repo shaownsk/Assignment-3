@@ -16,8 +16,9 @@
         theme: {
           extend: {
             colors: {
-              clifford: '#da373d',
-            }
+              'footer-color':'#179800',
+              'footer-card':'#EFEBE3'
+            },
           }
         }
       }
@@ -71,7 +72,7 @@
       </div>
       <hr class=" lg:hidden">
       <!-- hero section -->
-       <div class="my-20">
+       <div class="mt-20">
         <!-- text -->
          <div class="text-center ">
           <h1 class=" text-3xl lg:text-5xl font-bold">Freshness <span class="text-lime-500">You Can <br> Count</span> On, Prices You’ll Love!</h1>
@@ -89,7 +90,7 @@
       <section class="py-20">
         <!-- text -->
          <div>
-          <h1 class="text-lime-500 text-2xl font-bold">Services</h1>
+          <h1 class="text-lime-500 text-2xl font-bold pb-10">Services</h1>
          </div>
          <!-- carts -->
          <div class="grid grid-cols-1 lg:flex gap-7">
@@ -132,7 +133,7 @@
       <div class="w-10/12 mx-auto">
         <!-- text -->
        <div>
-        <h1 class="text-lime-500 text-2xl font-bold">Popular Products</h1>
+        <h1 class="text-lime-500 text-2xl font-bold pb-10">Popular Products</h1>
        </div>
        <!-- 2nd cart -->
         <div class="lg:flex gap-5 items-center">
@@ -293,7 +294,7 @@
 
     <!-- Arrival & Offers -->
      <main class="w-10/12 mx-auto">
-      <section class="pt-32 pb-60">
+      <section class="pt-20 pb-80">
         <!-- heading -->
         <div>
           <h1 class="text-lime-500 text-2xl font-bold pb-10">Arrival & Offers</h1>
@@ -327,6 +328,38 @@
          </div>
       </section>
      </main>
-    
+     <footer class="footer pt-96 pb-10 bg-[#179800] text-base-content relative">
+      <!-- footer card -->
+       <div class="lg:flex absolute text-center lg:text-left w-4/5 bg-slate-200 -top-60 lg:-top-52 left-10 lg:left-36 rounded-xl p-10 justify-around items-center ">
+        <img src="c2-assets/vegetable-busket.png" alt="">
+        <!-- text box -->
+        <div class="">
+          <h1 class="text-3xl font-bold mb-5 text-[#179800] lg:text-black">Get Grocery News!</h1>
+          <p class="mb-5">Exclusive training tips, ticks, product deals and more.</p>
+          <input type="email" placeholder="Enter email...." class="input input-bordered bg-white lg:py-3 lg:w-5/6" /><br>
+          <button class="btn mt-5 bg-[#179800]">Subscribe</button>
+        </div>
+       </div>
+      <div class="footer w-10/12 mx-auto text-white">
+        <nav>
+          <img src="c2-assets/logo-footer.png" alt="">
+          <p>Discover a world of treats, toys, and <br> essentials handpicked for your furry <br>friends</p>
+        </nav> <br>
+        <nav>
+          <a class="link link-hover">Product</a> 
+          <a class="link link-hover">Services</a> 
+          <a class="link link-hover">Contact us</a> 
+        </nav> <br>
+        <nav>
+          <header class="footer-title">Follow Us</header> 
+          <div class="grid grid-flow-col gap-4">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </nav>
+      </div>
+    </footer>
 </body>
 </html>
